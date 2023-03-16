@@ -14,7 +14,7 @@ class all_in_mail:
     Subject = "Пересылка сообщения"
     Image=[]
     Audio=[]
-    Forward_to = "kold1kz@bk.ru"
+    Forward_to = "user@mail"
 
 
     def send_mail(Message, Subject, Forward_to, Image, Audio):
@@ -22,7 +22,7 @@ class all_in_mail:
         msg = MIMEMultipart()
         message = Message
 
-        Forward_to = "kold1kz@bk.ru"
+        Forward_to = "user@mail"
 
         login = "forward_sff@inbox.ru"
         password = "9NtSKsvrj7UjfcrHbafa"
@@ -55,7 +55,7 @@ class all_in_mail:
         all_in_mail.Subject = "Пересылка сообщения"
         all_in_mail.Image=[]
         all_in_mail.Audio=[]
-        all_in_mail.Forward_to = "kold1kz@bk.ru"
+        all_in_mail.Forward_to = "user@mail"
 
 
 class TestStates(Helper):
